@@ -37,7 +37,7 @@ Por ejemplo, si el archivo a encriptar es `archivo.txt`, el resultado se guardar
 
 ## Ejemplo de uso
 
-Asumiendo que se está corriendo desde ~, y que el archivo a encriptar se encuentra en `~/in.txt`, el comando para encriptar el archivo sería:
+Asumiendo que se está corriendo desde `~/`, y que el archivo a encriptar se encuentra en `~/in.txt`, el comando para encriptar el archivo sería:
 
 
 ### Generar una llave
