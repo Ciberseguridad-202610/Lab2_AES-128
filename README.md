@@ -22,6 +22,11 @@ de ser enviados por FTP, se diseñó un script en Python que permita cifrar y de
 este algoritmo, utilizando una llave secreta de 16 bytes. Asimismo, se diseñó un generador de claves
 de 16 bytes para simplificar el proceso de prueba y ejecución.
 
+> **Notas importantes**: Decidimos utilizar AES-128 para asegurar un equilibrio de seguridad y eficiencia. También decidimos
+> utilizar el modo de operación EAX para garantizar la confidencialidad e integridad de los datos, 
+> ya que este modo proporciona autenticación además de cifrado por medio del nonce.
+> El cifrado y decifrado se hacen a nivel de bytes (al igual que la lectura y escritura de los archivos).
+
 ## Uso del código
 
 Antes de empezar, es necesario crear un archivo `k.key` con el generador de claves (16 bits).
